@@ -1,4 +1,4 @@
-# graph_matching_for_data_dictionary_harmonization
+# Graph matching for data dictionary harmonization
 Provide methods to automatically match entries in a data dictionary based on structure between items.
 
 ## Task
@@ -24,3 +24,9 @@ An algorithm that can do a classification on graph databases is DGCNN. We can us
 The cool thing about this stratety of matching data dictionary items is that both the label type, the marginal distribution and the relationship of the item with other items in its project is used for the match. We are explicitly not need a match on the variable name. The method should in principle be able to discover matches of latent variables.
 
 Here an example tutorial about DGCNN: https://medium.com/crim/deep-learning-applied-to-graphs-586ce63bb28e.
+
+### References
+ - canonical correlation analysis
+ - distance correlation
+ - Open Refine
+ - reproschema
