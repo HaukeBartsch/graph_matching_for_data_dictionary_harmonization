@@ -1,13 +1,14 @@
 # Graph matching for data dictionary harmonization
-Provide methods to automatically match entries in a data dictionary based on structure between items.
+
+Provide a method to match entries in a data dictionary based on data features.
 
 ## Task
 
-Given are two data dictionaries A, and B, and example data for both. We are looking for a match between the items in the two data dictionaries so that compatible items are grouped together.
+Given are two data dictionaries A, and B, and example data for both with non-overlapping participants. We are looking for a ranking of items in B given any choice of item in A. Such ranking should rank item by similarity or compatiblity.
 
-For example let data dictionary A be the data dictionary from the HCP project and data dictionary B be the data dictionary from the ABCD study. Create an item to item mapping for each item in A to an item in B.
+For example let data dictionary A be the data dictionary from the HCP project and data dictionary B be the data dictionary from the ABCD study. Create an item to item mapping for each HCP item to an item in ABCD.
 
-We do not want to rely on participants data that are in both projects. The method should work with pseudonymized and anonymized data.
+We do not want to rely on participant data that are in both projects. We don't want rely on item names. The method should work with pseudonymized and anonymized data.
 
 ### Trivial
 
