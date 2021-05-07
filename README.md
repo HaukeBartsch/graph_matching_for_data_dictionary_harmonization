@@ -31,3 +31,5 @@ Here an example tutorial about DGCNN: https://medium.com/crim/deep-learning-appl
  - distance correlation
  - Open Refine
  - reproschema
+ - item-response theory
+ - latent variable approach
